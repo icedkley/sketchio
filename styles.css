@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas {
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  display: grid;
+}
+
+/* .pixel:hover {
+  background-color: black;
+} */
